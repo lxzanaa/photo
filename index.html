@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+
+    <title>Document</title>
+    <style>
+        .main-logo {
+            text-align: center
+        }
+
+        .main-logo img {
+            text-align: center !important;
+            width: 150px !important
+        }
+
+        .box-title,
+        .profil-item-img-box-text,
+        .profil-item-img-box.number,
+        .social-title {
+            color: rgba(0, 0, 0, .87) !important;
+            font-family: "Noto Sans", sans-serif !important
+        }
+
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            background-color: #eceff1 !important;
+            min-height: 100vh !important
+        }
+
+        .body-tabel {
+            padding-left: 16px !important;
+            padding-right: 16px !important
+        }
+
+        .box-logo,
+        .box-logo.apple-pay {
+            width: 60px !important;
+            height: 60px !important;
+            border-radius: 50% !important;
+            background-color: #187ac914;
+            margin: 0 auto 20px !important;
+            text-align: center !important
+        }
+
+        .container,
+        .container-2 {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            padding: 20px !important;
+            width: 100%
+        }
+
+        .container-margin,
+        .footer-logo,
+        .footer-row,
+        .main-logo,
+        .social-texts {
+            margin-bottom: 20px !important
+        }
+
+        .box-logo.apple-pay img,
+        .box-logo.google-pay img {
+            line-height: 100% !important;
+            margin-top: 23px !important;
+            width: 34px !important;
+            height: 14px !important
+        }
+
+        .main-logo {
+            margin-top: 40px !important
+        }
+
+        .logoBoxTell {
+            isolation: isolate !important
+        }
+
+        .logoTell {
+            mix-blend-mode: difference !important
+        }
+
+        .container {
+            max-width: 520px !important;
+            background-color: #fff !important;
+            margin-top: 20px !important;
+            border-radius: 4px !important
+        }
+
+        .container-2 {
+            max-width: 562px !important;
+            background-color: #eceff1 !important
+        }
+
+        .profil-item-img-box,
+        .profil-item-img-box.number {
+            height: 40px !important;
+            background-color: #f5f7f8 !important;
+            border-radius: 50% !important;
+            text-align: center !important
+        }
+
+        .profil-list {
+            width: 100% !important;
+            padding: 0 20px !important;
+            margin-bottom: 16px !important
+        }
+
+        .profil-item-img-box,
+        .profil-item-td {
+            width: 40px !important
+        }
+
+        .profil-item {
+            border-bottom: 1px solid #e0e0e0 !important;
+            display: block !important;
+            padding-bottom: 16px !important;
+            padding-top: 16px !important
+        }
+
+        .profil-item:last-child {
+            border-bottom: 0 solid #e0e0e0 !important
+        }
+
+        .profil-item-td {
+            padding-right: 16px !important
+        }
+
+        .profil-item-img-box-img {
+            width: 24px !important;
+            height: 24px !important;
+            padding-top: 8px !important
+        }
+
+        .profil-item-img-box.number {
+            width: 40px !important;
+            line-height: 40px !important;
+            font-size: 20px !important;
+            font-style: normal !important;
+            font-weight: 500 !important
+        }
+
+        .profil-item-img-box-text {
+            font-size: 16px !important;
+            font-weight: 400 !important;
+            line-height: normal !important
+        }
+
+        .box-logo.banking-services-app-access {
+            width: auto !important;
+            height: auto !important;
+            border-radius: 0 !important;
+            background-color: transparent !important;
+            margin: 0 auto 20px !important;
+            text-align: center !important
+        }
+
+        .box-logo img {
+            line-height: 100% !important;
+            margin-top: 15px !important;
+            width: 30px !important;
+            height: 30px !important
+        }
+
+        .social-img-1 a,
+        .social-img-1 a img,
+        .social-img-2 a,
+        .social-img-2 a img {
+            display: block !important;
+            width: 100% !important
+        }
+
+        .box-logo.banking-services-app-access img {
+            line-height: 100% !important;
+            margin-top: 15px !important;
+            width: 189.773px !important;
+            height: 120px !important;
+            margin-bottom: 20px !important
+        }
+
+        .box-title,
+        .social-title {
+            text-align: center !important;
+            font-size: 24px !important;
+            font-style: normal !important;
+            font-weight: 600 !important;
+            line-height: normal !important;
+            margin-bottom: 16px !important
+        }
+
+        .box-texts,
+        .box-texts-2,
+        .social-texts {
+            color: rgba(0, 0, 0, .6) !important;
+            font-size: 16px !important;
+            line-height: normal !important
+        }
+
+        .box-texts,
+        .box-texts-2,
+        .box-texts-3,
+        .social-texts {
+            font-style: normal !important;
+            font-weight: 400 !important
+        }
+
+        .box-texts,
+        .box-texts-2 {
+            text-align: center;
+            font-family: sans-serif;
+            margin-bottom: 16px
+        }
+
+        .social-texts {
+            text-align: center !important;
+            font-family: sans-serif !important
+        }
+
+        .box-title-h3 {
+            color: var(--text-primary, rgba(0, 0, 0, .87));
+            text-align: center;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal
+        }
+
+        .box-texts b,
+        .box-texts-3 {
+            color: rgba(0, 0, 0, .6) !important
+        }
+
+        .profil-item-img-box-text b {
+            color: #000
+        }
+
+        .box-texts-3 {
+            font-size: 14px !important;
+            line-height: normal !important;
+            text-align: center;
+            font-family: sans-serif
+        }
+
+        .footer-col-text,
+        .footer-col-title {
+            font-feature-settings: "clig" off, "liga" off !important;
+            font-family: "Noto Sans", sans-serif !important;
+            font-style: normal !important;
+            font-weight: 400 !important
+        }
+
+        .box-texts-3 a {
+            color: #187ac9 !important;
+            text-decoration: none !important;
+            font-weight: 500 !important
+        }
+
+        .social-img-1 {
+            padding-right: 20px !important
+        }
+
+        .social-img-1 a {
+            margin-right: auto
+        }
+
+        .social-img-2 {
+            padding-left: 20px !important
+        }
+
+        .footer-logo {
+            width: 80px !important
+        }
+
+        .footer-col-1 {
+            max-width: 126px !important;
+            padding-right: 40px !important
+        }
+
+        .footer-col-2 {
+            max-width: 194px !important
+        }
+
+        .footer-col-2-tr {
+            display: none
+        }
+
+        .footer-row {
+            vertical-align: baseline !important
+        }
+
+        .footer-col-title {
+            font-size: 16px !important;
+            line-height: 150% !important;
+            letter-spacing: .15px !important;
+            color: #000000de !important;
+            margin-bottom: 8px !important
+        }
+
+        .footer-col-text {
+            color: var(--text-primary, rgba(0, 0, 0, .87)) !important;
+            font-size: 12px !important;
+            line-height: 166% !important;
+            letter-spacing: .4px !important
+        }
+
+        .footer-col-text-email a,
+        .footer-col-text-tel {
+            font-feature-settings: "clig" off, "liga" off;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 166%;
+            letter-spacing: .4px
+        }
+
+        .footer-col-text-tel {
+            color: var(--text-primary, rgba(0, 0, 0, .87))
+        }
+
+        .footer-col-text-email a {
+            text-decoration: none;
+            color: var(--secondary-main, #187ac9)
+        }
+
+        .footer-col-row img {
+            margin-top: 1px;
+            margin-right: 8px;
+            display: block
+        }
+
+        .footer-col-row .footer-col-text-email img {
+            margin-top: 3px;
+            margin-right: 8px;
+            display: block
+        }
+
+        .footer-social img {
+            height: 24px !important;
+            display: block
+        }
+
+        .footer-social td {
+            padding-right: 24px !important
+        }
+
+        .footer-text-full {
+            color: var(--text-primary, rgba(0, 0, 0, .87)) !important;
+            font-feature-settings: "clig" off, "liga" off !important;
+            font-family: "Noto Sans", sans-serif !important;
+            font-size: 12px !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            line-height: 166% !important;
+            letter-spacing: .4px !important;
+            margin-bottom: 20px
+        }
+
+        .transaction {
+            font-family: sans-serif !important;
+            border-collapse: collapse !important;
+        }
+
+        .transaction__table {
+            width: 100% !important;
+            border-spacing: 0 !important;
+            padding-bottom: 12px !important;
+            border-bottom: 1px solid #0000001F !important;
+            margin-bottom: 12px !important;
+        }
+
+        .transaction__cell {
+            padding: 2px !important;
+        }
+
+        .transaction__cell--header {
+            font-weight: bold !important;
+            color: #555 !important;
+            text-transform: uppercase !important;
+        }
+
+        .transaction__recipient-details {
+            font-weight: bold !important;
+            margin: 0 !important;
+            color: #000 !important;
+        }
+
+        .transaction__status-button {
+            display: flex !important;
+            align-items: center !important;
+            background-color: #2E7D3214 !important;
+            color: #1B5E20 !important;
+            border: none !important;
+            border-radius: 9999px !important;
+            padding: 3px 8px !important;
+            cursor: pointer !important;
+            font-size: 10px !important;
+            font-weight: 500 !important;
+            line-height: 14px !important;
+        }
+
+        .transaction__status-icon svg {
+            margin-right: 5px !important;
+        }
+
+        .transaction__status-icon {
+            display: flex !important;
+        }
+
+        .transaction__cell.transaction__cell--header {
+            color: #00000099 !important;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            line-height: 166% !important;
+            letter-spacing: 0.4px !important;
+        }
+
+        .transaction__cell.transaction__cell--index {
+            color: var(--text-primary, rgba(0, 0, 0, 0.87)) !important;
+            font-feature-settings: 'liga' off, 'clig' off !important;
+            font-family: "Noto Sans" !important;
+            font-size: 14px !important;
+            font-style: normal !important;
+            font-weight: 500 !important;
+            line-height: 160% !important;
+            letter-spacing: 0.15px !important;
+            padding-right: 26px !important;
+        }
+
+        .transaction__cell.transaction__cell--memo,
+        .transaction__cell.transaction__cell--amount,
+        .transaction__recipient-details {
+            color: #000000de !important;
+            font-size: 12px !important;
+            letter-spacing: 0.17px !important;
+            max-width: 96px !important;
+        }
+
+        .transaction__row {
+            text-align: left !important;
+            max-width: 96px !important;
+            width: 100% !important;
+        }
+
+        .transaction__recipient-details-light {
+            color: #00000099 !important;
+        }
+
+        .transaction__cell.transaction__cell--header.grid-transparent {
+            user-select: none !important;
+            color: transparent !important;
+        }
+
+        .transaction__cell--status {
+            display: flex !important;
+            justify-content: right !important;
+        }
+
+        .transaction_mobile {
+            padding-bottom: 12px !important;
+            margin-bottom: 12px !important;
+            border-bottom: 1px solid #0000001F !important;
+        }
+
+        .transaction_mobile__item {
+            display: flex !important;
+            align-items: center !important;
+            gap: 16px !important;
+            justify-content: space-between !important;
+            margin-bottom: 12px !important;
+        }
+
+        .transaction_mobile__status {
+            padding-right: 16px !important;
+        }
+
+        .transaction_mobile__number {
+            color: #000000de !important;
+            font-size: 14px !important;
+            font-weight: 500 !important;
+            line-height: 160% !important;
+            letter-spacing: 0.15px !important;
+        }
+
+        .transaction_mobile__details {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .transaction_mobile__label {
+            color: #00000099 !important;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            line-height: 166% !important;
+            letter-spacing: 0.4px !important;
+        }
+
+        .transaction_mobile__name {
+            color: #000000de !important;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            line-height: 143% !important;
+            letter-spacing: 0.17px !important;
+            max-width: 125px !important;
+        }
+
+        .transaction_mobile__id {
+            color: #00000099 !important;
+        }
+
+        .transaction_mobile__button {
+            display: flex !important;
+            align-items: center !important;
+            border: none !important;
+            padding: 3px 8px !important;
+            color: #1B5E20 !important;
+            background-color: #2E7D3214 !important;
+            cursor: pointer !important;
+            gap: 6px !important;
+            border-radius: 9999px !important;
+        }
+
+        .transaction_mobile__button_declined {
+            display: flex !important;
+            align-items: center !important;
+            border: none !important;
+            padding: 3px 8px !important;
+            color: #D32F2F !important;
+            background-color: #D32F2F14 !important;
+            cursor: pointer !important;
+            border-radius: 9999px !important;
+        }
+
+        .transaction_mobile {
+            display: none !important;
+        }
+
+        .transaction_mobile__error-text {
+            color: #D32F2F !important;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            line-height: 166% !important;
+            letter-spacing: 0.4px !important;
+            text-align: left !important;
+            padding-top: 10px !important;
+            padding-left: 10px !important;
+        }
+
+        @media (max-width: 450px) {
+            .transaction__table {
+                display: none !important;
+            }
+
+            .transaction_mobile {
+                display: block !important;
+            }
+        }
+
+
+        @media (prefers-color-scheme:dark) {
+            .logo {
+                content: url("https://netevia.com/mail/01main-logo/email-logo-dark.png")
+            }
+
+            .transaction__cell.transaction__cell--memo,
+            .transaction__cell.transaction__cell--amount,
+            .transaction__recipient-details {
+                color: white !important;
+                font-size: 12px !important;
+                letter-spacing: 0.17px !important;
+                max-width: 96px !important;
+            }
+
+            .transaction__recipient-details-light,
+            .transaction__cell.transaction__cell--header {
+                color: white !important;
+            }
+
+            .transaction__cell.transaction__cell--index {
+                color: white !important;
+            }
+
+            .profil-item-img-box,
+            .profil-item-img-box.number {
+                width: 40px !important;
+                height: 40px !important;
+                background-color: #111 !important;
+                text-align: center !important;
+                border-radius: 50% !important
+            }
+
+            .box-logo.apple-pay img,
+            .box-logo.google-pay img {
+                line-height: 100% !important;
+                margin-top: 23px !important;
+                width: 34px !important;
+                height: 14px !important
+            }
+
+            .footer-logo.logo {
+                content: url("https://netevia.com/mail/03footer/main-logo-dark.png") !important
+            }
+
+            .footer,
+            .footer .container-2,
+            body {
+                background-color: #111 !important
+            }
+
+            .profil-item-img-box.number {
+                line-height: 40px !important;
+                color: #fff !important;
+                font-family: "Noto Sans", sans-serif !important;
+                font-size: 20px !important;
+                font-style: normal !important;
+                font-weight: 500 !important
+            }
+
+            .box-title-h3 {
+                color: var(--text-primary, rgba(0, 0, 0, .87));
+                text-align: center;
+                font-family: "Noto Sans", sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                color: #fff !important
+            }
+
+            .box-title,
+            .container b,
+            .container p,
+            .container td,
+            .footer a,
+            .footer p,
+            .footer td,
+            .profil-item-img-box-text b,
+            .social-title {
+                color: #fff !important
+            }
+
+            .footer-col-row,
+            .profil-item-img-box img {
+                filter: brightness(0) invert(1)
+            }
+
+            .footer-line {
+                background-color: #fff;
+                opacity: 10%
+            }
+
+            .container {
+                background-color: #1e1e1e !important
+            }
+
+            .container .box-logo {
+                background-color: #1e252c !important
+            }
+
+            .box-logo.apple-pay img {
+                content: url("https://netevia.com/mail/apple-pay/logo-dark.png")
+            }
+
+            .box-logo.google-pay img {
+                content: url("https://netevia.com/mail/google-pay/logo-dark.png")
+            }
+
+            .box-logo.banking-services-app-access img {
+                width: 189.773px !important;
+                height: 120px !important;
+                margin-top: 0 !important
+            }
+
+            .box-logo.banking-services-app-access {
+                width: auto !important;
+                height: auto !important;
+                border-radius: 0 !important;
+                margin: 0 !important;
+                background-color: transparent !important
+            }
+        }
+
+        @media screen and (max-width:540px) {
+
+            .box-texts,
+            .social-texts {
+                font-weight: 400 !important
+            }
+
+            .container {
+                padding: 12px !important
+            }
+
+            .main-logo img {
+                width: 100px !important
+            }
+
+            .box-logo,
+            .box-logo.apple-pay,
+            .box-logo.google-pay {
+                width: 40px !important;
+                height: 40px !important;
+                margin-bottom: 20px !important
+            }
+
+            .box-logo img {
+                margin-top: 10px !important;
+                width: 20px !important;
+                height: 20px !important
+            }
+
+            .profil-list {
+                width: 100% !important;
+                padding: 0 12px !important;
+                margin-bottom: 16px !important
+            }
+
+            .box-logo.apple-pay img {
+                margin-top: 14px !important;
+                width: 27px !important;
+                height: auto !important
+            }
+
+            .box-title,
+            .social-title {
+                font-size: 20px !important
+            }
+
+            .box-texts {
+                margin-bottom: 20px !important
+            }
+
+            .social-img-1 {
+                padding-right: 5.5px !important
+            }
+
+            .social-img-2 {
+                padding-left: 5.5px !important
+            }
+
+            .social-texts {
+                color: #5e5e5e !important;
+                font-size: 14px !important;
+                font-style: normal !important;
+                line-height: normal !important;
+                text-align: center;
+                font-family: sans-serif;
+                margin-bottom: 12px
+            }
+
+            .footer-col-2-tr .footer-col-title,
+            .social-title {
+                margin-bottom: 8px !important
+            }
+
+            .footer-col-text,
+            .footer-text-full {
+                font-size: 12px !important
+            }
+
+            .footer-col-2,
+            .hidden-text {
+                display: none
+            }
+
+            .footer-col-2-tr {
+                display: block
+            }
+
+            .container-2 {
+                padding: 12px 0 !important
+            }
+
+            .footer-col-text {
+                margin-bottom: 12px !important
+            }
+        }
+    </style>
+
+  </head>
+
+  <body style="background-color: #eceff1">
+    <br />
+    <table
+      class="body-tabel"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+    >
+      <tr class="main-logo">
+        <td>
+            <img
+      	      style="max-width: 180px;"
+                src="https://netevia.com/mail/boxed-logo.png"
+                alt="" title="light" />
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <table border="0" cellpadding="0" cellspacing="0" class="container">
+            <!-- Your Email Content Here -->
+            <tr>
+              <td>
+                <div
+                  class="box-logo"
+                  style="margin: 0; padding: 0; text-align: center"
+                >
+                  <img
+                    src="https://netevia.com/mail/account-closure/logo.png"
+                  />
+                </div>
+                <h2 class="box-title">Account Closure</h2>
+                <p class="box-texts">
+                  <b>[Applicant Name],</b> <br /><br />
+
+                  Your request to close your account was received. Please allow
+                  up to 3 business days to be completed. To process your account
+                  closure, please make sure to withdraw all your funds and have
+                  a balance of $0; otherwise, your account will remain open. 
+                </p>
+                <p class="box-texts-2">
+                  Sincerely, <br />
+                  Netevia Team
+                </p>
+                <p class="box-texts-3">
+                  If you have any questions, don't hesitate to contact us at
+                  <br />
+                  <a href="tel:855-479-4411">855-479-4411</a> or email at
+                  <a href="mailto: card@netevia.com">card@netevia.com.</a>
+                  <br />
+                  Our Customer Services Team is available Monday-Friday from
+                  9:00 am to 8:00 pm EST.
+                </p>
+              </td>
+            </tr>
+            <!-- End of Email Content -->
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+            <table border="0" cellpadding="0" cellspacing="0" class="container container-margin">
+                <!-- Your Email Content Here -->
+                <tr>
+                    <td colspan="2">
+                        <h2 class="social-title">Get the Netevia app!</h2>
+                        <p class="social-texts">
+                            Get the most of Netevia by installing our mobile app.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="social-img-1">
+                        <a target="_blank" href="#">
+                            <img
+                                src="https://netevia.com/mail/02app-section/appstore.png" />
+                        </a>
+                    </td>
+                    <td class="social-img-2">
+                        <a target="_blank" href="#">
+                            <img
+                                src="https://netevia.com/mail/02app-section/googleplay.png" />
+                        </a>
+                    </td>
+                </tr>
+                <!-- End of Email Content -->
+            </table>
+        </td>
+      </tr>
+ <tr class="footer">
+  <td align="center">
+      <table border="0" cellpadding="0" cellspacing="0" class="container-2">
+          <!-- Your Email Content Here -->
+          <tr>
+              <td colspan="2">
+                  <hr class="footer-line" />
+              </td>
+          </tr>
+
+          <!-- End of Email Content -->
+      </table>
+  </td>
+</tr>
+
+<tr class="footer">
+  <td align="center">
+      <table border="0" cellpadding="0" cellspacing="0" class="container-2">
+          <!-- Your Email Content Here -->
+          <tr>
+              <td colspan="2">
+                  <img
+				  	  style="max-width: 120px; margin-bottom: 25px;"
+                      src="https://netevia.com/mail/boxed-logo.png"
+                      alt="" />
+          <tr class="footer-row">
+              <td class="footer-col-1" colspan="1">
+                  <p class="footer-col-title">Address</p>
+                  <p class="footer-col-text">
+                      © 2023 Netevia Group LLC 3363 NE 163rd St, Suite 606 North
+                      Miami Beach, FL 33160
+                  </p>
+              </td>
+              <td class="footer-col-2" colspan="2">
+                  <p class="footer-col-title">Contact information</p>
+                  <table>
+                      <tr class="footer-col-row">
+                          <td class="logoBoxTell">
+                              <img class="logoTell" width="16"
+                                  src="https://netevia.com/mail/03footer/tel-icon.png" />
+                          </td>
+                          <td class="footer-col-text-tel">855-479-4411</td>
+                      </tr>
+                      <tr class="footer-col-row">
+                          <td>
+                              <img width="16"
+                                  src="https://netevia.com/mail/03footer/email-icon.png" />
+                          </td>
+                          <td class="footer-col-text-email">
+                              <a href="mailto:card@netevia.com">card@netevia.com</a>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+              <td class="hidden-text" style="opacity: 0; user-select: none">
+                  saom
+              </td>
+          </tr>
+          <tr class="footer-col-2-tr">
+              <td>
+                  <p class="footer-col-title">Contact information</p>
+                  <table>
+                      <tr class="footer-col-row">
+                          <td>
+                              <img width="16"
+                                  src="https://netevia.com/mail/03footer/tel-icon.png" />
+                          </td>
+                          <td class="footer-col-text-tel">855-479-4411</td>
+                      </tr>
+                      <tr class="footer-col-row">
+                          <td>
+                              <img width="16"
+                                  src="https://netevia.com/mail/03footer/email-icon.png" />
+                          </td>
+                          <td class="footer-col-text-email">
+                              <a href="mailto:card@netevia.com">card@netevia.com</a>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+          </tr>
+  </td>
+</tr>
+
+<!-- End of Email Content -->
+</table>
+</td>
+</tr>
+
+<tr class="footer">
+<td align="center">
+  <table border="0" cellpadding="0" cellspacing="0" class="container-2" style="padding-top: 0 !important">
+      <!-- Your Email Content Here -->
+      <tr>
+          <td colspan="2">
+              <p class="footer-text-full">
+                  Netevia is not a bank. Banking services provided by Sutton
+                  Bank, Member FDIC. Should the member bank holding your balance
+                  fail, you are insured for up to $250,000 of your money in the
+                  account.
+              </p>
+          </td>
+      </tr>
+      <tr class="footer-social">
+          <td style="display: inline-block">
+              <a href="https://www.facebook.com/netevia" target="_blank">
+                  <img src="https://netevia.com/mail/03footer/social-facebook.png" />
+              </a>
+          </td>
+          <td style="display: inline-block">
+              <a href="https://www.instagram.com/neteviapayments/" target="_blank">
+                  <img src="https://netevia.com/mail/03footer/social-instagram.png" />
+              </a>
+          </td>
+          <td style="display: inline-block">
+              <a href="https://twitter.com/NeteviaPayments" target="_blank">
+                  <img src="https://netevia.com/mail/03footer/social-x.png" />
+              </a>
+          </td>
+      </tr>
+
+      <!-- End of Email Content -->
+  </table>
+</td>
+</tr>
+<br />
+
+      <!-- <tr>
+      <td align="center"  style="padding: 20px 0">
+          <h3 class="social-title">Get the Netevia app!</h3>
+          <p class="social-text">Get the most of Netevia by installing our mobile app.</p>
+      </td>
+     
+    </tr> -->
+    </table>
+  </body>
+</html>
